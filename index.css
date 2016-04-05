@@ -85,6 +85,7 @@ div.ft-more{
 #nav .nav-right ul {margin-right: 15px;height: 52px;margin-top: 33px;}
 #nav .nav-right ul li {float: left;padding-left: 54px;}
 #nav .nav-right ul li a {color: #666666;font:16px "hiragino_sans_gbw3";}
+<<<<<<< HEAD
 #nav .nav-right ul .search {background: url(img/search.png) no-repeat;width: 19px;height: 19px;margin-left: 70px;padding: 0;}
 #nav .nav-right ul .search a {width: 19px;height: 19px;display: block; }
 /* 登录弹出 */
@@ -144,6 +145,18 @@ div.ft-more{
     font-size: 26px;
     cursor:pointer;
 }
+=======
+#nav .nav-right ul li a:hover {color: #39a030;}
+#nav .nav-right ul .search {background: url(img/search.png) no-repeat;width: 19px;height: 19px;margin-left: 70px;padding: 0;}
+#nav .nav-right ul .search a {width: 19px;height: 19px;display: block; }
+/* 登录弹出 */
+.out-loginWrap{background-color: rgba(0,0,0,0);z-index: -1;transition: 1s background-color;}
+.out-login{position: absolute;top: 50%;left: 50%;width: 295px;height: 238px;padding: 10px 52px 40px 40px;margin-top: -144px;margin-left: -194px;transform: scale(0);visibility: hidden;transition: 1s transform;background-color: #fff;}
+.out-login-tit{font-size: 18px;line-height: 58px;color: #444;}
+.out-login-ipt{display: block;width: 293px;height: 45px;margin-bottom: 15px;padding-top: 1px;text-indent: 11px;background-color: #fafafa;font-size: 16px;line-height: 42px;color: #000;border: 1px solid #dfdfdf;box-shadow: inset 2px 2px 3px #f1f1f1;}
+.out-login-btn{width: 100%;margin-top: 14px;font-size: 16px;line-height: 46px;color: #fff;background-color: #30b555;box-shadow: 2px 2px 3px #d5e3da;}
+.out-login-close{position: absolute;top: 3px;right: 10px;width: 11px;height: 11px;font-size: 26px;cursor:pointer;}
+>>>>>>> refs/remotes/origin/master
 
 #banner {width: 100%;position: relative;}
 #banner .banner-img {position: relative;width: 100%;height: 460px;left: 50%;margin-left: -826px;}
@@ -187,7 +200,11 @@ div.ft-more{
 #list .list-cotain .pro-list strong {font: normal 12px/22px "Microsoft YaHei";color: #999999;padding-left:5px;}
 #list .list-cotain .pro-list span {width: 26px;height: 18px;border: 1px solid #dddddd;border-radius: 4px;display: block;margin:4px 0 0 5px;background: url(img/pro-number.png) no-repeat 5px 3px;color: #999999;font-size: 12px;padding-left: 19px;}
 #list .list-cotain .pro-list i {font-style: normal;color: #ff3f00;font: bold 12px "Microsoft YaHei";padding-left: 5px;}
+<<<<<<< HEAD
 #list .list-cotain .hover {width: 458px;padding: 11px;display:none;position: absolute;left: -10px;top:-10px;background: #fff;box-shadow: 0 0 3px #d3d3d3;z-index: 2;font: 12px "Microsoft YaHei";color: #666666;border: 1px solid #d3d3d3; }
+=======
+#list .list-cotain .hover {width: 458px;padding: 11px;display:none;position: absolute;left: -10px;top:-10px;background: #fff;box-shadow: 0 0 3px #d3d3d3;z-index: 100;font: 12px "Microsoft YaHei";color: #666666;border: 1px solid #d3d3d3; }
+>>>>>>> refs/remotes/origin/master
 #list .pro-list:hover .hover {display: block;}
 #list .list-cotain .hover img {width: 223px;height: 124px;float: left;padding-right: 19px;}
 #list .list-cotain .hover h2 {font:18px "Microsoft YaHei";color: #333333;margin-bottom: 18px;}
@@ -233,6 +250,7 @@ div.ft-more{
 #footer .href  a:hover {text-decoration: underline;}
 
 /*out-videoBox*/
+<<<<<<< HEAD
 .out-videoBoxWrap{
     background-color: rgba(0,0,0,0);
     z-index: -1;
@@ -281,6 +299,15 @@ div.ft-more{
     right: 0;
     bottom: 0;  
 }
+=======
+.out-videoBoxWrap{background-color: rgba(0,0,0,0);z-index: -1;transition: 1s background-color;}
+.out-videoBox{position: absolute;top: 50%;left: 50%;width: 950px;height: 676px;margin-top: -338px;margin-left: -475px;transform: scale(0);visibility: hidden;transition: 1s transform;background-color: #fff;     }
+.out-videoBox-tit{padding-top: 7px;font-size: 18px;line-height: 62px;color: #444;text-indent: 30px}
+.out-videoBox-close{position: absolute;top: 6px;right: 12px;width: 10px;height: 10px;font-size: 26px;cursor:pointer;}
+.out-video{display: block;padding: 0 30px 40px 31px;width: 889px;height: 567px;}
+
+.fullscreen{position: fixed;top: 0;left: 0;right: 0;bottom: 0;  }
+>>>>>>> refs/remotes/origin/master
 
 
 
